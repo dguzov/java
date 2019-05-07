@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class rectangularCalculator {
+public class rectangularCalculatorWithValidator {
 
 	public static void main(String[] args) {
 		// welcome
