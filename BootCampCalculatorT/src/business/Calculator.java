@@ -9,8 +9,6 @@ public class Calculator {
 	public Calculator() {
 		super();
 	}
-
-	
 	public Calculator(int a, int b) {
 		super();
 		this.a = a;
@@ -42,14 +40,12 @@ public class Calculator {
 		this.result = result;
 	}
 
-	public  double module() {
-		
-		result = a%b;
+	public  double module() {	
+		result = a % b;
 		return result;
 	}
 
-	public  double division() {
-		
+	public  double division() {	
 		result = a/b;
 		return result;
 	}
@@ -59,22 +55,18 @@ public class Calculator {
 		return result;
 	}
 
-	public  double subtract() {
-		
+	public  double subtract() {	
 		result = a-b;
 		return result;
 	}
 
-	public  double add() {
-		
+	public  double add() {	
 		result = a+b;
 		return result;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Calculator [a=" + a + ", b=" + b + ", result=" + result + "]";
-	}
-	
+	}	
 }
